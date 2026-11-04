@@ -33,25 +33,6 @@ The application is specifically designed for soybean plants and rejects unsuppor
 - **Responsive Interface:** User-friendly application design.
 - **Dark and Light Modes:** Support different interface themes.
 
-## 🖥️ Application Screenshots
-
-### Homepage
-<img src="screenshots/homepage.png" width="700">
-
-### Disease Prediction
-<img src="screenshots/disease-prediction.png" width="700">
-
-### Dashboard
-<img src="screenshots/dashboard.png" width="700">
-
-### Healthy Soybean Leaf
-<img src="screenshots/healthy-leaf.png" width="700">
-
-### Invalid Image Detection
-<img src="screenshots/invalid-image.png" width="700">
-
-### Treatment and Prevention
-<img src="screenshots/treatment-recommendations.png" width="700">
 
 ## ⚙️ System Workflow
 
@@ -81,6 +62,26 @@ The application is specifically designed for soybean plants and rejects unsuppor
 | Backend Functions | Supabase Edge Functions |
 | AI / Deep Learning | CNN-based image classification |
 | Version Control | Git, GitHub |
+
+## 🖥️ Application Screenshots
+
+### Homepage
+<img src="screenshots/homepage.png" width="700">
+
+### Disease Prediction
+<img src="screenshots/disease-prediction.png" width="700">
+
+### Dashboard
+<img src="screenshots/dashboard.png" width="700">
+
+### Healthy Soybean Leaf
+<img src="screenshots/healthy-leaf.png" width="700">
+
+### Invalid Image Detection
+<img src="screenshots/invalid-image.png" width="700">
+
+### Treatment and Prevention
+<img src="screenshots/treatment-recommendations.png" width="700">
 
 ## 📂 Project Structure
 
