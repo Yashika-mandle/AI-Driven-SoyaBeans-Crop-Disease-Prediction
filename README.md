@@ -39,7 +39,8 @@ The system is specifically designed for soybean plants and rejects images of uns
 
 The landing page introduces the application and its soybean disease detection capabilities.
 
-![Homepage](screenshots/homepage.png)
+![Uploading Homepage.png…]()
+
 
 ### 2. Soybean Disease Detection
 
