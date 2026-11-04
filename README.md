@@ -231,4 +231,8 @@ Configure the Supabase project and deploy the required functions and migrations 
 
 ## 📜 License
 
+<<<<<<< HEAD
 This project is developed for academic and educational purposes.
+=======
+This project is developed for academic and educational purposes.
+>>>>>>> e2ca5fb (Add README and project screenshots)
