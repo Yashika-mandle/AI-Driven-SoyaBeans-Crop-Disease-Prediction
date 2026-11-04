@@ -39,37 +39,37 @@ The system is specifically designed for soybean plants and rejects images of uns
 
 The landing page introduces the application and its soybean disease detection capabilities.
 
-![Homepage](screenshots/homepage.png)
+![Homepage](screenshots/Homepage.png)
 
 ### 2. Soybean Disease Detection
 
 Upload a soybean leaf image and analyze it to obtain disease prediction results.
 
-![Disease Detection](screenshots/disease-detection.png)
+![Disease Detection](screenshots/Bacterial%20Blight%20prediction.png)
 
 ### 3. User Dashboard
 
 View analysis statistics, previous predictions, disease status, and management recommendations.
 
-![User Dashboard](screenshots/dashboard.png)
+![User Dashboard](screenshots/Dashboard.png)
 
 ### 4. Healthy Soybean Leaf Detection
 
 The system identifies a healthy soybean leaf and displays its analysis results.
 
-![Healthy Leaf Detection](screenshots/healthy-leaf.png)
+![Healthy Leaf Detection](screenshots/Healthy%20soybean%20leaf%20prediction.png)
 
 ### 5. Invalid Plant Image Detection
 
 The system validates uploaded images and rejects unsupported plants, such as cotton.
 
-![Invalid Input Validation](screenshots/invalid-input.png)
+![Invalid Input Validation](screenshots/Invalid%20plant%20image%20detection.png)
 
 ### 6. Treatment and Prevention Recommendations
 
 Displays recommended treatment methods and preventive measures for soybean diseases.
 
-![Treatment and Prevention](screenshots/treatment-recommendations.png)
+![Treatment and Prevention](screenshots/Treatment%20and%20prevention%20recommendations.png)
 
 ## ⚙️ System Workflow
 
