@@ -1,32 +1,90 @@
-# 🌱 AI-Driven Soybean Crop Disease Prediction
+# 🌱 AI-Driven Soybean Crop Disease Prediction and Management System
 
-An AI-powered, web-based application designed to detect soybean crop diseases from leaf images using Deep Learning and provide disease-related information and management recommendations.
+An AI-powered web application designed to identify soybean leaf diseases from images and provide disease analysis, treatment recommendations, and preventive measures.
 
 ## 📌 Project Overview
 
-Soybean crops are affected by various diseases that can reduce crop quality and agricultural productivity. Early identification of these diseases can help farmers take appropriate preventive and management measures.
+The **AI-Driven Soybean Crop Disease Prediction and Management System** aims to help users identify soybean crop diseases using Artificial Intelligence and Deep Learning.
 
-The **AI-Driven Soybean Crop Disease Prediction and Management System** uses a Convolutional Neural Network (CNN) to analyze uploaded soybean leaf images and predict the possible disease.
+The application allows users to upload soybean leaf images for disease analysis. It identifies the soybean plant, predicts its possible disease condition, displays detected symptoms, and provides treatment and prevention recommendations.
 
-The application is specifically designed for soybean plants. Images of other plants are not supported.
+The system is specifically designed for soybean plants and rejects images of unsupported plants.
 
 ## 🎯 Objectives
 
-- Detect soybean leaf diseases using Artificial Intelligence.
-- Apply Deep Learning techniques for image classification.
-- Provide disease-related information and management recommendations.
-- Develop a user-friendly web application for disease prediction.
-- Help users identify potential crop diseases at an early stage.
+- Detect soybean leaf diseases through image analysis.
+- Apply Deep Learning techniques for disease classification.
+- Identify healthy and diseased soybean leaves.
+- Provide disease information and detected symptoms.
+- Suggest treatment and preventive measures.
+- Develop a simple and user-friendly web application.
 
-## ✨ Features
+## ✨ Key Features
 
-- **Soybean Disease Detection:** Analyze uploaded soybean leaf images.
-- **CNN-Based Prediction:** Use a Convolutional Neural Network for image classification.
-- **Plant Validation:** Restrict disease detection to soybean plant images.
-- **Disease Information:** Display information about the predicted disease.
-- **Management Recommendations:** Provide relevant disease management guidance.
-- **User Interface:** Simple and user-friendly web interface.
-- **Backend Integration:** Supabase integration for backend functionality and database connectivity.
+- **AI-Based Disease Detection:** Analyze uploaded soybean leaf images.
+- **Healthy Leaf Identification:** Identify healthy soybean leaves.
+- **Disease Classification:** Display the predicted disease status.
+- **Disease Analysis:** Show severity, confidence, image quality, and detected symptoms where supported.
+- **Plant Validation:** Reject images that do not belong to soybean plants.
+- **Treatment Recommendations:** Display suggested disease management measures.
+- **Prevention Measures:** Provide preventive guidance.
+- **User Dashboard:** View analysis history and statistics.
+- **Authentication:** User login and logout functionality.
+- **Responsive Interface:** User-friendly application design.
+- **Dark and Light Modes:** Support different interface themes.
+
+## 🖥️ Application Screenshots
+
+### 1. Homepage
+
+The landing page introduces the application and its soybean disease detection capabilities.
+
+![Homepage](screenshots/homepage.png)
+
+### 2. Soybean Disease Detection
+
+Upload a soybean leaf image and analyze it to obtain disease prediction results.
+
+![Disease Detection](screenshots/disease-detection.png)
+
+### 3. User Dashboard
+
+View analysis statistics, previous predictions, disease status, and management recommendations.
+
+![User Dashboard](screenshots/dashboard.png)
+
+### 4. Healthy Soybean Leaf Detection
+
+The system identifies a healthy soybean leaf and displays its analysis results.
+
+![Healthy Leaf Detection](screenshots/healthy-leaf.png)
+
+### 5. Invalid Plant Image Detection
+
+The system validates uploaded images and rejects unsupported plants, such as cotton.
+
+![Invalid Input Validation](screenshots/invalid-input.png)
+
+### 6. Treatment and Prevention Recommendations
+
+Displays recommended treatment methods and preventive measures for soybean diseases.
+
+![Treatment and Prevention](screenshots/treatment-recommendations.png)
+
+## ⚙️ System Workflow
+
+1. User opens the web application.
+2. User logs in to access the application.
+3. User uploads a soybean leaf image.
+4. The system validates the uploaded image.
+5. The image is analyzed by the disease prediction functionality.
+6. The system displays the prediction and analysis results.
+7. Disease-related symptoms, treatment recommendations, and preventive measures are presented.
+8. Analysis information can be viewed through the dashboard and history.
+
+**Workflow:**
+
+`Login → Upload Image → Plant Validation → Image Analysis → Disease Prediction → Results → Recommendations`
 
 ## 🛠️ Technologies Used
 
@@ -36,38 +94,34 @@ The application is specifically designed for soybean plants. Images of other pla
 | Styling | Tailwind CSS |
 | Build Tool | Vite |
 | UI Components | shadcn/ui |
-| AI / Deep Learning | Convolutional Neural Network (CNN) |
-| Backend / Database | Supabase |
-| Programming Language | Python |
-| Version Control | Git and GitHub |
-
-## ⚙️ System Workflow
-
-1. User opens the web application.
-2. User uploads a soybean leaf image.
-3. The system validates the uploaded image.
-4. The CNN model analyzes the image.
-5. The system predicts the possible soybean disease.
-6. Disease information and management recommendations are displayed.
-
-**Workflow:**
-
-`Image Upload → Plant Validation → Image Analysis → Disease Prediction → Management Recommendations`
+| Backend | Supabase |
+| Database | Supabase Database |
+| Backend Functions | Supabase Edge Functions |
+| AI / Deep Learning | CNN-based image classification |
+| Version Control | Git, GitHub |
 
 ## 📂 Project Structure
 
 ```text
 AI-Driven-Soybean-Crop-Disease-Prediction/
 │
-├── public/
+├── screenshots/
+│   ├── homepage.png
+│   ├── disease-detection.png
+│   ├── dashboard.png
+│   ├── healthy-leaf.png
+│   ├── invalid-input.png
+│   └── treatment-recommendations.png
 │
 ├── src/
 │   ├── assets/
 │   ├── components/
 │   │   ├── ui/
 │   │   ├── About.tsx
+│   │   ├── Contact.tsx
 │   │   ├── Dashboard.tsx
 │   │   ├── Demo.tsx
+│   │   ├── Hero.tsx
 │   │   └── ...
 │   │
 │   ├── hooks/
@@ -77,6 +131,7 @@ AI-Driven-Soybean-Crop-Disease-Prediction/
 │   ├── pages/
 │   ├── App.tsx
 │   ├── App.css
+│   ├── index.css
 │   └── main.tsx
 │
 ├── supabase/
@@ -100,7 +155,7 @@ AI-Driven-Soybean-Crop-Disease-Prediction/
 - Node.js
 - npm
 - Git
-- Supabase project and credentials
+- Supabase project credentials
 
 ### 1. Clone the Repository
 
@@ -108,7 +163,7 @@ AI-Driven-Soybean-Crop-Disease-Prediction/
 git clone https://github.com/YOUR-USERNAME/AI-Driven-Soybean-Crop-Disease-Prediction.git
 ```
 
-### 2. Navigate to the Project Folder
+### 2. Navigate to the Project Directory
 
 ```bash
 cd AI-Driven-Soybean-Crop-Disease-Prediction
@@ -122,7 +177,9 @@ npm install
 
 ### 4. Configure Environment Variables
 
-Create a `.env` file in the root directory and add your Supabase credentials:
+Create a `.env` file in the project root directory.
+
+Add your Supabase configuration:
 
 ```env
 VITE_SUPABASE_PROJECT_ID=your-project-id
@@ -130,44 +187,47 @@ VITE_SUPABASE_URL=your-supabase-url
 VITE_SUPABASE_PUBLISHABLE_KEY=your-publishable-key
 ```
 
-Do not upload your `.env` file or any secret keys to GitHub.
+**Important:** Never upload `.env` files, service-role keys, or other secret credentials to GitHub.
 
-### 5. Run the Development Server
+### 5. Start the Development Server
 
 ```bash
 npm run dev
 ```
 
-Open the local URL displayed in your terminal to access the application.
+Open the localhost URL displayed in your terminal.
 
 ## 🗄️ Backend Configuration
 
-This project uses Supabase for backend integration.
+The project uses Supabase for backend integration.
 
-The `supabase/` directory contains:
+The `supabase/` directory includes:
 
-- Edge Functions
-- Database migration files
-- Supabase configuration
+- Edge Functions for backend operations.
+- Database migration files.
+- Supabase configuration.
 
-Configure your Supabase project and deploy the required backend functions and migrations before using backend-dependent features.
+Configure the Supabase project and deploy the required functions and migrations before using backend-dependent features.
 
 ## 🔮 Future Enhancements
 
-- Improve prediction accuracy using larger and more diverse datasets.
+- Improve disease prediction accuracy with larger datasets.
 - Support additional soybean disease categories.
 - Add multilingual support for farmers.
 - Integrate weather information for better crop management.
-- Develop a mobile-friendly application.
-- Provide more detailed disease prevention recommendations.
+- Improve disease severity estimation.
+- Develop a mobile application.
+- Provide more detailed and personalized crop management recommendations.
 
 ## 🎓 Project Information
 
-**Project Title:** AI-Driven Soybean Crop Disease Prediction 
-**Project Domain:** Artificial Intelligence, Machine Learning and Deep Learning
-
-**Project Type:** Web-Based Application
-
+| Detail | Description |
+|---|---|
+| Project Title | AI-Driven Soybean Crop Disease Prediction and Management System |
+| Domain | Artificial Intelligence and Deep Learning |
+| Application Type | Web-Based Application |
+| Primary Crop | Soybean |
+| Project Purpose | Academic Project |
 
 ## 📜 License
 
