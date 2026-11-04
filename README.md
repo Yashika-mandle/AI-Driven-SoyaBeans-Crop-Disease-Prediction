@@ -36,22 +36,22 @@ The application is specifically designed for soybean plants and rejects unsuppor
 ## 🖥️ Application Screenshots
 
 ### Homepage
-![Homepage](screenshots/homepage.png)
+<img src="screenshots/homepage.png" width="700">
 
 ### Disease Prediction
-![Disease Prediction](screenshots/disease-prediction.png)
+<img src="screenshots/disease-prediction.png" width="700">
 
 ### Dashboard
-![Dashboard](screenshots/dashboard.png)
+<img src="screenshots/dashboard.png" width="700">
 
 ### Healthy Soybean Leaf
-![Healthy Leaf](screenshots/healthy-leaf.png)
+<img src="screenshots/healthy-leaf.png" width="700">
 
 ### Invalid Image Detection
-![Invalid Image](screenshots/invalid-image.png)
+<img src="screenshots/invalid-image.png" width="700">
 
 ### Treatment and Prevention
-![Treatment Recommendations](screenshots/treatment-recommendations.png)
+<img src="screenshots/treatment-recommendations.png" width="700">
 
 ## ⚙️ System Workflow
 
